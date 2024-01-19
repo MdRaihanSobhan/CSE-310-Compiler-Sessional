@@ -1,0 +1,170 @@
+	ScopeTable# 1 created
+Cmd 1: I cachar VAR 
+	Inserted in ScopeTable# 1 at position 5, 1
+Cmd 2: I haildakandi VAR 
+	Inserted in ScopeTable# 1 at position 1, 1
+Cmd 3: I < RELOP 
+	Inserted in ScopeTable# 1 at position 1, 2
+Cmd 4: I buet 
+	Number of parameters mismatch for the command I
+Cmd 5: I 
+	Number of parameters mismatch for the command I
+Cmd 6: I Karimganj is a FUNCTION 
+	Number of parameters mismatch for the command I
+Cmd 7: I getDistrictName FUNCTION 
+	Inserted in ScopeTable# 1 at position 2, 1
+Cmd 8: I false BOOL 
+	Inserted in ScopeTable# 1 at position 3, 1
+Cmd 9: P C 
+	ScopeTable# 1
+    1--> <haildakandi,VAR> <<,RELOP>
+    2--> <getDistrictName,FUNCTION>
+    3--> <false,BOOL>
+    4-->
+    5--> <cachar,VAR>
+Cmd 10: S 
+	ScopeTable# 2 created
+Cmd 11: L cachar 
+	'cachar' found in ScopeTable# 1 at position 5, 1
+Cmd 12: D cachar 
+	Not found in the current ScopeTable
+Cmd 13: I cachar VAR 
+	Inserted in ScopeTable# 2 at position 5, 1
+Cmd 14: L cachar 
+	'cachar' found in ScopeTable# 2 at position 5, 1
+Cmd 15: I = RELOP 
+	Inserted in ScopeTable# 2 at position 2, 1
+Cmd 16: P A 
+	ScopeTable# 2
+    1-->
+    2--> <=,RELOP>
+    3-->
+    4-->
+    5--> <cachar,VAR>
+	ScopeTable# 1
+    1--> <haildakandi,VAR> <<,RELOP>
+    2--> <getDistrictName,FUNCTION>
+    3--> <false,BOOL>
+    4-->
+    5--> <cachar,VAR>
+Cmd 17: D < 
+	Not found in the current ScopeTable
+Cmd 18: D = 
+	Deleted '=' from ScopeTable# 2 at position 2, 1
+Cmd 19: P C 
+	ScopeTable# 2
+    1-->
+    2-->
+    3-->
+    4-->
+    5--> <cachar,VAR>
+Cmd 20: E 
+	ScopeTable# 2 removed
+Cmd 21: P A 
+	ScopeTable# 1
+    1--> <haildakandi,VAR> <<,RELOP>
+    2--> <getDistrictName,FUNCTION>
+    3--> <false,BOOL>
+    4-->
+    5--> <cachar,VAR>
+Cmd 22: S 
+	ScopeTable# 3 created
+Cmd 23: I a VAR 
+	Inserted in ScopeTable# 3 at position 3, 1
+Cmd 24: I print FUNCTION 
+	Inserted in ScopeTable# 3 at position 3, 2
+Cmd 25: S 
+	ScopeTable# 4 created
+Cmd 26: I a VAR 
+	Inserted in ScopeTable# 4 at position 3, 1
+Cmd 27: I scan FUNCTION 
+	Inserted in ScopeTable# 4 at position 3, 2
+Cmd 28: S 
+	ScopeTable# 5 created
+Cmd 29: I a VAR 
+	Inserted in ScopeTable# 5 at position 3, 1
+Cmd 30: I > RELOP 
+	Inserted in ScopeTable# 5 at position 3, 2
+Cmd 31: I a 
+	Number of parameters mismatch for the command I
+Cmd 32: P A 
+	ScopeTable# 5
+    1-->
+    2-->
+    3--> <a,VAR> <>,RELOP>
+    4-->
+    5-->
+	ScopeTable# 4
+    1-->
+    2-->
+    3--> <a,VAR> <scan,FUNCTION>
+    4-->
+    5-->
+	ScopeTable# 3
+    1-->
+    2-->
+    3--> <a,VAR> <print,FUNCTION>
+    4-->
+    5-->
+	ScopeTable# 1
+    1--> <haildakandi,VAR> <<,RELOP>
+    2--> <getDistrictName,FUNCTION>
+    3--> <false,BOOL>
+    4-->
+    5--> <cachar,VAR>
+Cmd 33: L haildakandi VAR 
+	Number of parameters mismatch for the command L
+Cmd 34: L haildakandi 
+	'haildakandi' found in ScopeTable# 1 at position 1, 1
+Cmd 35: L print 
+	'print' found in ScopeTable# 3 at position 3, 2
+Cmd 36: D 
+	Number of parameters mismatch for the command D
+Cmd 37: D a 
+	Deleted 'a' from ScopeTable# 5 at position 3, 1
+Cmd 38: P C 
+	ScopeTable# 5
+    1-->
+    2-->
+    3--> <>,RELOP>
+    4-->
+    5-->
+Cmd 39: S 
+	ScopeTable# 6 created
+Cmd 40: P A 
+	ScopeTable# 6
+    1-->
+    2-->
+    3-->
+    4-->
+    5-->
+	ScopeTable# 5
+    1-->
+    2-->
+    3--> <>,RELOP>
+    4-->
+    5-->
+	ScopeTable# 4
+    1-->
+    2-->
+    3--> <a,VAR> <scan,FUNCTION>
+    4-->
+    5-->
+	ScopeTable# 3
+    1-->
+    2-->
+    3--> <a,VAR> <print,FUNCTION>
+    4-->
+    5-->
+	ScopeTable# 1
+    1--> <haildakandi,VAR> <<,RELOP>
+    2--> <getDistrictName,FUNCTION>
+    3--> <false,BOOL>
+    4-->
+    5--> <cachar,VAR>
+Cmd 41: Q 
+	ScopeTable# 6 removed
+	ScopeTable# 5 removed
+	ScopeTable# 4 removed
+	ScopeTable# 3 removed
+	ScopeTable# 1 removed
