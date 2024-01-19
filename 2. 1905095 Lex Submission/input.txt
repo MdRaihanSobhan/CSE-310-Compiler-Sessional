@@ -1,0 +1,19 @@
+int x,y,z; float a;
+
+int var(int a,int b);
+
+int foo3(int a, int b);
+
+int func(int c, int d){
+}
+
+int correct_foo(int a, int b){
+}
+
+void foo(int a){
+	
+}
+
+int foo2(int a, int a, float b){
+	
+}

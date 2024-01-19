@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/md.raihansobhan/Documents/BUET/3-1 Mac/3-1 Sessionals/CSE 310 Compiler Lab/Symbol Table",
+      "program": "/Users/md.raihansobhan/Documents/BUET/3-1 Mac/3-1 Sessionals/CSE 310 Compiler Lab/Symbol Table/build/Debug/outDebug"
+    }
+  ]
+}
